@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/animate.css" />
-    <link rel="icon" href="images/mine/favicon-32x32.png" />
+    <link rel="icon" href="images/mine/android-chrome-512x512.png" />
 
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -148,9 +148,15 @@
             <div class="counter-wrap ftco-animate d-flex mt-md-3">
               <div class="text">
                 <p>
-                  <a href="" class="btn btn-primary py-3 px-3">Download CV</a>
+                  <a
+                    href="https://drive.google.com/file/d/1zMdCWNrkcWKXl1FFKneTwvT8GYeg48tp/"
+                    class="btn btn-primary py-3 px-3"
+                    download="Kumar_Abhishek_Resume.pdf"
+                    >Download CV</a
+                  >
                 </p>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -237,33 +243,6 @@
                   <p class="date">August 2022 - Present</p>
                   <ul>
                     <p>
-                      <strong>Infrastructure Cost & Utilization:</strong>
-                    </p>
-                    <li>
-                      Designed and developed TechSolution ID, a unique identifier for data products, enabling scalable measurement of engineering metrics across tools and processes.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Data Quality:</strong>
-                    </p>
-                    <li>
-                      Contributed to the development of Nike's proprietary Spark-expectations framework, which performs in-flight data quality checks during pipeline execution.
-                    </li>
-                    <li>
-                      Customized the great-expectations library and integrated it with Nike's managed-spark framework to enable dynamic data quality rule ingestion via Excel.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Telemetry:</strong>
-                    </p>
-                    <li>
-                      Implemented telemetry to monitor and analyze data usage and performance metrics, providing insights into access patterns and frequency.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
                       <strong>Nike Direct Clickstream:</strong>
                     </p>
                     <li>
@@ -295,6 +274,33 @@
                     </p>
                     <li>
                       Built a foundational data layer using Adobe Clickstream data for product offerings and add-to-cart activity from Nike.net partners, enabling AI/ML teams to train models for recommendation engines, driving personalized user experiences & business growth.
+                    </li>
+                  </ul>
+                  <ul>
+                    <p>
+                      <strong>Infrastructure Cost & Utilization:</strong>
+                    </p>
+                    <li>
+                      Designed and developed TechSolution ID, a unique identifier for data products, enabling scalable measurement of engineering metrics across tools and processes.
+                    </li>
+                  </ul>
+                  <ul>
+                    <p>
+                      <strong>Data Quality:</strong>
+                    </p>
+                    <li>
+                      Contributed to the development of Nike's proprietary Spark-expectations framework, which performs in-flight data quality checks during pipeline execution.
+                    </li>
+                    <li>
+                      Customized the great-expectations library and integrated it with Nike's managed-spark framework to enable dynamic data quality rule ingestion via Excel.
+                    </li>
+                  </ul>
+                  <ul>
+                    <p>
+                      <strong>Telemetry:</strong>
+                    </p>
+                    <li>
+                      Implemented telemetry to monitor and analyze data usage and performance metrics, providing insights into access patterns and frequency.
                     </li>
                   </ul>
                   <ul>
@@ -785,7 +791,7 @@
           <div class="col-md-6 order-md-last d-flex">
             <form
               method="POST"
-              action=""
+              action="https://example.com/submit-form"
               class="bg-light p-4 p-md-5 contact-form"
             >
               <div class="form-group">
@@ -836,7 +842,33 @@
             ></div>
           </div>
         </div>
+      <script>
+        document.querySelector('.contact-form').addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          const formData = new FormData(event.target);
+          const name = formData.get('name');
+          const email = formData.get('email');
+          const message = formData.get('message');
+
+          const mailtoLink = `mailto:iamabhishek1995@gmail.com?subject=Message from Portfolio - ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+          window.location.href = mailtoLink;
+        });
+      </script>
       </div>
+    <script>
+      document.querySelector('.contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(event.target);
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const message = formData.get('message');
+
+        const mailtoLink = `mailto:iamabhishek1995@gmail.com?subject=Message from Portfolio - ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+        window.location.href = mailtoLink;
+      });
+    </script>
     </section>
 
     <footer class="ftco-footer ftco-section">
