@@ -1,5 +1,6 @@
-# portfolio
-This contains code for personal portfolio
+# Portfolio
+
+Static website made with HTML, CSS, JS and Bootstrap
 
 ## Table of Contents
 
@@ -9,18 +10,18 @@ This contains code for personal portfolio
 - [Customization](#customization)
 
 ## Demo
-[Demo](https://iamabhishek1995.github.io/personal-portfolio)
+[Demo](https://iamabhishek1995.github.io/portfolio)
 
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/iamabhishek1995/personal-portfolio.git
+   git clone https://github.com/iamabhishek1995/portfolio.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd personal-portfolio
+   cd portfolio
    ```
 
 ## Usage
@@ -34,4 +35,3 @@ Open the `index.html` file in your browser to view the site:
 1. **HTML**: Update the content in the `index.html` file to reflect your personal information, projects, and contact details.
 2. **CSS**: Modify the styles in the `style.css` file to change the look and feel of your website.
 3. **JavaScript**: Add interactivity or functionality in the `main.js` file as needed.
-
