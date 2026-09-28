@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Abhishek Portfolio Site</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <title>
+      Kumar Abhishek — Senior Data Engineer | Databricks · AWS · Lakehouse
+    </title>
+    <meta
+      name="description"
+      content="Kumar Abhishek — Senior Data Engineer with 10 years of experience architecting Databricks Lakehouse platforms, ETL/ELT pipelines and cloud data foundations at Nike, Change Healthcare, Cloudwick and CenturyLink."
+    />
+    <meta
+      name="keywords"
+      content="Kumar Abhishek, Senior Data Engineer, Databricks, Delta Lake, PySpark, Apache Spark, AWS, Airflow, Kafka, Snowflake, Lakehouse, Data Architecture, Bengaluru"
+    />
+    <meta name="author" content="Kumar Abhishek" />
+    <meta name="theme-color" content="#242424" />
 
-    <meta property="og:title" content="Page Tile" />
-    <meta property="og:description" content="Personal Site" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Kumar Abhishek — Senior Data Engineer | Databricks · AWS · Lakehouse"
+    />
+    <meta
+      property="og:description"
+      content="10 years of building scalable data platforms, lakehouse architectures and ETL/ELT pipelines across retail, healthcare and telecom."
+    />
+    <meta property="og:image" content="images/mine/mine.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
 
+    <link rel="icon" href="images/mine/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="images/mine/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="icon" href="images/mine/favicon-32x32.png" />
 
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
@@ -25,6 +50,38 @@
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kumar Abhishek",
+        "jobTitle": "Senior Data Engineer",
+        "email": "mailto:abhishek_@outlook.in",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "addressCountry": "India"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/iamabhishek1995/",
+          "https://github.com/iamabhishek1995"
+        ],
+        "knowsAbout": [
+          "Databricks",
+          "Delta Lake",
+          "Apache Spark",
+          "PySpark",
+          "AWS",
+          "Apache Airflow",
+          "Apache Kafka",
+          "Snowflake",
+          "Data Architecture"
+        ]
+      }
+    </script>
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -33,7 +90,9 @@
       id="ftco-navbar"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">Kumar Abhishek (Pandey)</a>
+        <a class="navbar-brand" href="index.html"
+          >Kumar Abhishek<span class="brand-dot">.</span></a
+        >
         <button
           class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
           type="button"
@@ -55,7 +114,7 @@
               <a href="#about-section" class="nav-link"><span>About</span></a>
             </li>
             <li class="nav-item">
-              <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+              <a href="#resume-section" class="nav-link"><span>Résumé</span></a>
             </li>
             <li class="nav-item">
               <a href="#project-section" class="nav-link"
@@ -67,6 +126,15 @@
                 ><span>Contact</span></a
               >
             </li>
+            <li class="nav-item cta-resume">
+              <a
+                href="https://drive.google.com/file/d/11qs4TOUK53EbSCVXj2WPHr_Rx-H5Hl-D/"
+                target="_blank"
+                rel="noopener"
+                class="nav-link"
+                ><span>Download CV</span></a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -75,23 +143,60 @@
     <!-- particles -->
     <div id="particles-js"></div>
 
-    <section class="hero-wrap js-fullheight">
+    <section class="hero-wrap js-fullheight" id="home-section">
       <div class="container">
         <div
           class="row no-gutters slider-text js-fullheight justify-content-center align-items-center"
         >
-          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          <div class="col-lg-10 col-md-10 ftco-animate d-flex align-items-center">
             <div class="text text-center">
+              <span class="hero-status"
+                ><span class="pulse"></span>Acting Lead Engineer @ Nike</span
+              >
               <span class="subheading">Hey! I am</span>
-              <h1>Kumar Abhishek</h1>
+              <h1 class="mb-2">
+                <span class="name-gradient">Kumar Abhishek</span>
+              </h1>
               <h2>
-                I like
+                I build
                 <span
                   class="txt-rotate"
                   data-period="2000"
-                  data-rotate='[ "Data Engineering", "Coding", "Software Development", "Problem Solving", "Data Analysis", "Solution Architecting & Designing", "System Design"]'
+                  data-rotate='[ "Lakehouse Platforms", "Petabyte-Scale Pipelines", "Streaming Data Products", "Data Quality Frameworks", "Cloud Data Architecture", "High-Performing Teams" ]'
                 ></span>
               </h2>
+              <p class="hero-tagline">
+                Senior Data Engineer with <strong>10 years</strong> of
+                experience architecting
+                <strong>scalable data platforms</strong>, ETL/ELT pipelines and
+                <strong>cloud lakehouse solutions</strong> that process
+                multi-terabyte workloads across retail, healthcare and telecom.
+              </p>
+              <ul class="hero-keywords">
+                <li>Databricks</li>
+                <li>Delta Lake</li>
+                <li>PySpark</li>
+                <li>AWS</li>
+                <li>Kafka</li>
+                <li>Airflow</li>
+                <li>Snowflake</li>
+                <li>Unity Catalog</li>
+              </ul>
+              <div class="hero-cta">
+                <a href="#resume-section" class="btn-solid"
+                  ><span class="icon-briefcase"></span>Explore My Work</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/iamabhishek1995/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-ghost"
+                  ><span class="icon-linkedin-square"></span>LinkedIn</a
+                >
+                <a href="#contact-section" class="btn-ghost"
+                  ><span class="icon-paper-plane"></span>Get in Touch</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -110,53 +215,155 @@
     >
       <div class="container">
         <div class="row d-flex no-gutters">
-          <div class="col-md-6 col-lg-6 d-flex">
+          <div class="col-md-6 col-lg-5 d-flex">
             <div class="img-about img d-flex align-items-stretch">
               <div class="overlay"></div>
               <div
                 class="img d-flex align-self-stretch align-items-center"
-                style="background-image: url(images/mine/mine.jpeg); background-size: cover; background-position: top center;">
-              </div>  
+                style="
+                  background-image: url(images/mine/mine.jpeg);
+                  background-size: cover;
+                  background-position: top center;
+                "
+              ></div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 pl-md-5 py-5">
+          <div class="col-md-6 col-lg-7 pl-md-5 py-5">
             <div class="row justify-content-start pb-3">
               <div class="col-md-12 heading-section ftco-animate">
-                <h2 class="mb-4">About Me</h2>
-                <p>Here's a little about me...</p>
+                <span class="section-eyebrow">About Me</span>
+                <h2 class="mb-4 heading-underline">
+                  Data platforms, built to last
+                </h2>
+                <div class="about-summary">
+                  <p>
+                    I currently lead the
+                    <strong>Sustainability Data Foundation at Nike</strong>,
+                    owning end-to-end <strong>HLD and LLD</strong> and mentoring
+                    a team of <strong>10+ engineers</strong>. My work sits at
+                    the intersection of
+                    <strong>Databricks Lakehouse architecture</strong>, data
+                    governance and platform engineering — with deep hands-on
+                    depth in Python, PySpark, SQL, AWS, Delta Lake, Kafka,
+                    Snowflake and Airflow.
+                  </p>
+                  <p>
+                    Over the last decade I have shipped enterprise platforms and
+                    frameworks adopted organisation-wide — a unified
+                    <strong>Consumer 360 Lakehouse</strong> that cut reporting
+                    latency by <strong>85%</strong> for
+                    <strong>50M+ users</strong>, and a data-product identifier
+                    standard onboarded across
+                    <strong>every engineering team</strong>. I am equally at
+                    home translating ambiguous business requirements into
+                    production-grade design, and tuning a Spark job that refuses
+                    to behave. Day to day I work
+                    <strong>AI-augmented</strong> — Cursor, Claude Code, GitHub
+                    Copilot and Genie across development, code review,
+                    architecture exploration and documentation.
+                  </p>
+                </div>
                 <ul class="about-info mt-4 px-md-0 px-2">
-                  <li class="d-flex"><span>Name:</span><span>Kumar Abhishek</span></li>
                   <li class="d-flex">
-                    <span>Email:</span><span>iamabhishek1995@gmail.com</span>
+                    <span>Name:</span><span>Kumar Abhishek</span>
                   </li>
                   <li class="d-flex">
-                    <span>Linkedin:</span><span>https://www.linkedin.com/in/iamabhishek1995/</span>
+                    <span>Role:</span
+                    ><span>Senior Data Engineer · Acting Lead Engineer</span>
                   </li>
                   <li class="d-flex">
-                    <span>GitHub:</span><span>https://github.com/iamabhishek1995</span>
+                    <span>Email:</span
+                    ><span
+                      ><a href="mailto:iamabhishek1995@gmail.com"
+                        >iamabhishek1995@gmail.com</a
+                      ></span
+                    >
                   </li>
                   <li class="d-flex">
-                    <span>Phone:</span><span>+91-7205475736</span>
+                    <span>LinkedIn:</span
+                    ><span
+                      ><a
+                        href="https://www.linkedin.com/in/iamabhishek1995/"
+                        target="_blank"
+                        rel="noopener"
+                        >/in/iamabhishek1995</a
+                      ></span
+                    >
                   </li>
-                  <li class="d-flex"><span>City:</span><span>Bengaluru</span></li>
                   <li class="d-flex">
-                    <span>Country:</span><span>India</span>
+                    <span>GitHub:</span
+                    ><span
+                      ><a
+                        href="https://github.com/iamabhishek1995"
+                        target="_blank"
+                        rel="noopener"
+                        >/iamabhishek1995</a
+                      ></span
+                    >
+                  </li>
+                  <li class="d-flex">
+                    <span>Phone:</span
+                    ><span><a href="tel:+917205475736">+91-7205475736</a></span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Location:</span
+                    ><span>Bengaluru, Karnataka — India</span>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text">
-                <p>
-                  <a
-                    href="https://drive.google.com/file/d/1zMdCWNrkcWKXl1FFKneTwvT8GYeg48tp/"
-                    class="btn btn-primary py-3 px-3"
-                    download="Kumar_Abhishek_Resume.pdf"
-                    >Download CV</a
-                  >
-                </p>
-              </div>
+
+            <div class="about-actions ftco-animate">
+              <a
+                href="https://drive.google.com/file/d/11qs4TOUK53EbSCVXj2WPHr_Rx-H5Hl-D/"
+                target="_blank"
+                rel="noopener"
+                class="btn-solid"
+                download="Kumar_Abhishek_Resume.pdf"
+                ><span class="icon-download"></span>Download CV</a
+              >
+              <a href="mailto:iamabhishek1995@gmail.com" class="btn-ghost"
+                ><span class="icon-envelope"></span>Email Me</a
+              >
             </div>
+
+            <div class="stats-strip ftco-animate">
+              <div class="stat-card">
+                <span class="stat-value"
+                  ><span class="number" data-number="10">0</span></span
+                >
+                <span class="stat-label">Years of experience</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value"
+                  ><span class="number" data-number="50">0</span>M+</span
+                >
+                <span class="stat-label">Users served</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value"
+                  ><span class="number" data-number="85">0</span>%</span
+                >
+                <span class="stat-label">Reporting latency cut</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value"
+                  ><span class="number" data-number="15">0</span>+</span
+                >
+                <span class="stat-label">Source systems unified</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value"
+                  >$<span class="number" data-number="25">0</span>M+</span
+                >
+                <span class="stat-label">Decisions enabled</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value"
+                  ><span class="number" data-number="10">0</span>+</span
+                >
+                <span class="stat-label">Engineers mentored</span>
+              </div>
             </div>
           </div>
         </div>
@@ -169,15 +376,556 @@
           <div class="col-md-3">
             <nav id="navi">
               <ul>
-                <li><a href="#page-1">Education</a></li>
-                <li><a href="#page-2">Experience</a></li>
-                <li><a href="#page-3">Skills</a></li>
-                <li><a href="#page-4">Awards</a></li>
+                <li><a href="#page-1">Experience</a></li>
+                <li><a href="#page-2">Skills</a></li>
+                <li><a href="#page-3">Education</a></li>
+                <li><a href="#page-4">Certifications</a></li>
+                <li><a href="#page-5">Recognition</a></li>
               </ul>
             </nav>
           </div>
           <div class="col-md-9">
             <div id="page-1" class="page one">
+              <h2 class="heading">Experience</h2>
+
+              <div class="xp-timeline">
+                <article class="xp-card is-current ftco-animate">
+                  <div class="xp-head">
+                    <h3 class="xp-role">
+                      Acting Lead Engineer — Sustainability Data Foundation
+                      <span class="xp-badge">Current</span>
+                    </h3>
+                    <span class="xp-date">Aug 2025 — Present</span>
+                  </div>
+                  <span class="xp-company"
+                    >Nike Inc.
+                    <span class="xp-location">· Bengaluru, India</span></span
+                  >
+                  <ul class="xp-points">
+                    <li>
+                      <strong>Lead architect</strong> for the Sustainability
+                      Data Foundation, owning end-to-end
+                      <strong>HLD and LLD</strong> across ingestion,
+                      transformation and consumption layers for enterprise
+                      <strong>Scope 1 &amp; 2</strong> energy and emissions
+                      reporting.
+                    </li>
+                    <li>
+                      <strong>Mentor and technical lead</strong> for the
+                      Sustainability engineering team — driving design reviews,
+                      code quality standards and technical growth across
+                      <em>10+ engineers</em>.
+                    </li>
+                    <li>
+                      Built and deployed production ETL/ELT pipelines on
+                      <strong>Databricks, Brickflow, AWS, Unity Catalog</strong>
+                      and <strong>Databricks Asset Bundles</strong>, applying
+                      <strong>Medallion Architecture</strong>.
+                    </li>
+                    <li>
+                      Defined data models and
+                      <strong>SCD Type 1 &amp; 2</strong> strategies from
+                      downstream consumption analysis, and authored
+                      <strong>Source-to-Target Mapping (STM)</strong> documents
+                      ensuring transformation accuracy, lineage and
+                      traceability.
+                    </li>
+                    <li>
+                      Established
+                      <strong>data quality and governance frameworks</strong>
+                      plus automated pipeline monitoring and alerting, giving
+                      production support a consolidated weekly view of platform
+                      health.
+                    </li>
+                    <li>
+                      Delivered <strong>audit-ready datasets</strong> and
+                      evidence trails supporting external sustainability
+                      assurance and annual regulatory reporting.
+                    </li>
+                  </ul>
+                  <div class="chip-group">
+                    <span class="chip-label">Tech</span>
+                    <span class="chip">Databricks</span>
+                    <span class="chip">Brickflow</span>
+                    <span class="chip">PySpark</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">SQL</span>
+                    <span class="chip">Delta Lake</span>
+                    <span class="chip">Unity Catalog</span>
+                    <span class="chip">AWS</span>
+                    <span class="chip">Airflow</span>
+                    <span class="chip">Genie</span>
+                    <span class="chip">Cursor</span>
+                  </div>
+                </article>
+
+                <article class="xp-card ftco-animate">
+                  <div class="xp-head">
+                    <h3 class="xp-role">
+                      Senior Data Engineer — Enterprise Data Analytics &amp;
+                      Artificial Intelligence
+                    </h3>
+                    <span class="xp-date">Aug 2022 — Jul 2025</span>
+                  </div>
+                  <span class="xp-company"
+                    >Nike Inc.
+                    <span class="xp-location">· Bengaluru, India</span></span
+                  >
+                  <ul class="xp-points">
+                    <li>
+                      <strong>Consumer 360 Lakehouse Platform:</strong>
+                      architected a unified Lakehouse on Databricks
+                      consolidating fragmented customer data from
+                      <em>15+ source systems</em> using real-time
+                      <strong>Kafka</strong> streaming ingestion,
+                      <strong>Delta Lake Medallion Architecture</strong> and
+                      <strong>Unity Catalog</strong> governance — cutting
+                      reporting latency by <em>85%</em> (from 4 hours), serving
+                      <em>50M+ users</em> and enabling <em>$25M+</em> in
+                      data-driven business decisions.
+                    </li>
+                    <li>
+                      <strong>TechSolution ID:</strong> designed and built from
+                      scratch a unique data-product identifier and its
+                      supporting services, then drove
+                      <strong>enterprise-wide onboarding across all
+                      engineering teams</strong>, enabling scalable measurement
+                      of infrastructure cost, utilisation and engineering
+                      metrics across tools and processes.
+                    </li>
+                    <li>
+                      <strong>Nike Direct Clickstream:</strong> built the
+                      foundational data layer processing clickstream from
+                      Nike.com, the Nike App and SNKRS, delivering actionable
+                      user-behaviour insight that let business teams optimise
+                      digital experience, marketing strategy and product
+                      development.
+                    </li>
+                    <li>
+                      <strong>Third-Party Partners (3PP):</strong> onboarded
+                      external eCommerce partner data onto the Nike Data
+                      Foundation, ensuring complete, trusted, high-quality
+                      datasets powering
+                      <strong>global and APLA demand forecasting</strong>.
+                    </li>
+                    <li>
+                      <strong>Data Quality:</strong> customised the
+                      <strong>Great Expectations</strong> library and integrated
+                      it with Nike's managed-spark framework to enable dynamic
+                      rule ingestion via Excel; contributed to Nike's
+                      proprietary <strong>Spark-Expectations</strong> framework
+                      performing in-flight data quality checks during pipeline
+                      execution.
+                    </li>
+                    <li>
+                      <strong>Databricks Workflow Dependency Sensor:</strong>
+                      developed a custom <strong>Airflow operator</strong>
+                      bridging DAG dependencies with Databricks Workflows,
+                      unblocking platform migration while preserving integration
+                      with downstream teams still running on Airflow/EMR.
+                    </li>
+                    <li>
+                      <strong>Nike.net Recommendations &amp; Telemetry:</strong>
+                      built an <strong>Adobe Clickstream</strong> foundational
+                      layer for product offering and add-to-cart activity
+                      enabling <strong>AI/ML</strong> recommendation model
+                      training; implemented telemetry to monitor data usage,
+                      access patterns and performance metrics.
+                    </li>
+                  </ul>
+                  <div class="chip-group">
+                    <span class="chip-label">Tech</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">PySpark</span>
+                    <span class="chip">Databricks</span>
+                    <span class="chip">Kafka</span>
+                    <span class="chip">Airflow</span>
+                    <span class="chip">Snowflake</span>
+                    <span class="chip">SQL</span>
+                    <span class="chip">AWS</span>
+                    <span class="chip">Delta Lake</span>
+                    <span class="chip">Data Warehousing</span>
+                    <span class="chip">Jenkins</span>
+                  </div>
+                </article>
+
+                <article class="xp-card ftco-animate">
+                  <div class="xp-head">
+                    <h3 class="xp-role">Senior Data Engineer</h3>
+                    <span class="xp-date">Dec 2021 — Jul 2022</span>
+                  </div>
+                  <span class="xp-company"
+                    >Change Healthcare
+                    <span class="xp-location"
+                      >· C2H via Innova Solutions · Bengaluru, India</span
+                    ></span
+                  >
+                  <ul class="xp-points">
+                    <li>
+                      Delivered
+                      <strong>Healthcare Interoperability</strong> capabilities
+                      enabling seamless data exchange and accurate
+                      interpretation across systems and organisational
+                      boundaries — supporting providers, individuals and
+                      third-party application developers across web and mobile
+                      devices.
+                    </li>
+                    <li>
+                      Designed and implemented core access use cases spanning
+                      external clients accessing internal data, internal users
+                      accessing external client data, and internal-to-internal
+                      access.
+                    </li>
+                    <li>
+                      Implemented
+                      <strong
+                        >industry-standard methods for accessing integrated
+                        records</strong
+                      >, delivering a standardised data access layer for client
+                      applications to read, update and delete records and
+                      eliminating the need for proprietary interfaces.
+                    </li>
+                  </ul>
+                  <div class="chip-group">
+                    <span class="chip-label">Tech</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">PySpark</span>
+                    <span class="chip">Airflow</span>
+                    <span class="chip">SQL</span>
+                    <span class="chip">AWS S3</span>
+                    <span class="chip">EMR</span>
+                    <span class="chip">Lambda</span>
+                    <span class="chip">Redshift</span>
+                    <span class="chip">Glue</span>
+                    <span class="chip">Step Functions</span>
+                  </div>
+                </article>
+
+                <article class="xp-card ftco-animate">
+                  <div class="xp-head">
+                    <h3 class="xp-role">
+                      Senior Software Engineer — Data &amp; Analytics Platform
+                    </h3>
+                    <span class="xp-date">Jan 2020 — Dec 2021</span>
+                  </div>
+                  <span class="xp-company"
+                    >Cloudwick Technologies
+                    <span class="xp-location">· Bengaluru, India</span></span
+                  >
+                  <ul class="xp-points">
+                    <li>
+                      Built <strong>NGAP</strong>, an in-house
+                      <strong>Next-Generation Data Analytics Platform</strong>
+                      on AWS using EMR and Databricks Spark compute — a
+                      security- and privacy-compliant platform supporting data
+                      storage, ingestion and curation with self-service, ad-hoc
+                      query and job scheduling capabilities.
+                    </li>
+                    <li>
+                      Designed a <strong>Flask-based API</strong> enabling users
+                      to debug and monitor logs through a UI, and developed a
+                      <strong>Submission Service</strong> managing application
+                      submission and state across AWS EMR clusters and EC2
+                      instances.
+                    </li>
+                    <li>
+                      Contributed to the
+                      <strong>Spark Best Practices initiative
+                      (Managed-Spark)</strong>, helping engineers write
+                      optimised, runtime-agnostic Spark code across the
+                      organisation.
+                    </li>
+                    <li>
+                      Automated <strong>IAM role and policy management</strong>,
+                      reducing access provisioning time from
+                      <em>1 day to 1 hour</em>, and built an
+                      <strong>AWS cost analysis dashboard</strong> providing
+                      insight into cloud resource usage and expenditure.
+                    </li>
+                    <li>
+                      Developed <strong>custom Airflow operators</strong> to
+                      enhance pipeline automation, access management and
+                      security compliance; provided technical guidance to
+                      cross-functional teams on both streaming and batch data
+                      processing services.
+                    </li>
+                  </ul>
+                  <div class="chip-group">
+                    <span class="chip-label">Tech</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">PySpark</span>
+                    <span class="chip">Airflow</span>
+                    <span class="chip">Hadoop</span>
+                    <span class="chip">Hive</span>
+                    <span class="chip">AWS</span>
+                    <span class="chip">Terraform</span>
+                    <span class="chip">Docker</span>
+                    <span class="chip">Kubernetes</span>
+                    <span class="chip">Jenkins</span>
+                    <span class="chip">GitOps</span>
+                    <span class="chip">Netflix Genie</span>
+                  </div>
+                </article>
+
+                <article class="xp-card ftco-animate">
+                  <div class="xp-head">
+                    <h3 class="xp-role">Software Engineer — Big Data</h3>
+                    <span class="xp-date">Nov 2016 — Dec 2019</span>
+                  </div>
+                  <span class="xp-company"
+                    >CenturyLink
+                    <span class="xp-location">· Bengaluru, India</span></span
+                  >
+                  <ul class="xp-points">
+                    <li>
+                      Built the <strong>CenturyLink Data Lake</strong>, ingesting
+                      from diverse sources (RDBMS, SFTP, S3, Hive) into a
+                      <strong>Redshift</strong> staging layer and applying Spark
+                      business logic to deliver curated datasets to the Data
+                      Science team for <strong>loyalty management</strong> use
+                      cases; handled Avro, JSON, Parquet and CSV formats.
+                    </li>
+                    <li>
+                      Designed a reusable
+                      <strong>PySpark file-processing ingestion framework</strong>
+                      for fixed-width flat files, standardising HDFS ingestion
+                      and automating Hive table creation for the wider team.
+                    </li>
+                    <li>
+                      Indexed <strong>Impala</strong> data using
+                      <strong>Apache SOLR</strong> and exposed it through a
+                      <strong>Java Jersey JAX-RS</strong> API serving a
+                      consumer-facing UI.
+                    </li>
+                    <li>
+                      Built ingestion pipelines using <strong>SQOOP</strong> into
+                      HDFS with Hive and Impala transformations for reporting;
+                      performed monitoring and
+                      <strong>root cause analysis</strong> of scheduled jobs
+                      using Oozie, Agile Scheduler and Crontab.
+                    </li>
+                  </ul>
+                  <div class="chip-group">
+                    <span class="chip-label">Tech</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">PySpark</span>
+                    <span class="chip">SQL</span>
+                    <span class="chip">Hadoop</span>
+                    <span class="chip">Hive</span>
+                    <span class="chip">Impala</span>
+                    <span class="chip">SQOOP</span>
+                    <span class="chip">Apache SOLR</span>
+                    <span class="chip">Oozie</span>
+                    <span class="chip">Cloudera</span>
+                    <span class="chip">Shell</span>
+                    <span class="chip">Redshift</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div id="page-2" class="page two">
+              <h2 class="heading">Skills</h2>
+
+              <div class="stack-grid ftco-animate">
+                <div class="stack-item">
+                  <img src="images/skills/python-48.png" alt="Python" />
+                  <span>Python</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/spark-48.png" alt="Apache Spark" />
+                  <span>Spark</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/sql-48.png" alt="SQL" />
+                  <span>SQL</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/kafka-64.png" alt="Apache Kafka" />
+                  <span>Kafka</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/airflow.svg" alt="Apache Airflow" />
+                  <span>Airflow</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/aws-48.png" alt="AWS" />
+                  <span>AWS</span>
+                </div>
+                <div class="stack-item">
+                  <img
+                    src="images/skills/data-warehouse-64.png"
+                    alt="Data warehousing"
+                  />
+                  <span>Warehousing</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/big-data-50.png" alt="Big data" />
+                  <span>Big Data</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/hadoop-48.png" alt="Hadoop" />
+                  <span>Hadoop</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/docker-48.png" alt="Docker" />
+                  <span>Docker</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/kubernetes-48.png" alt="Kubernetes" />
+                  <span>Kubernetes</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/terraform-48.png" alt="Terraform" />
+                  <span>Terraform</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/linux-48.png" alt="Linux" />
+                  <span>Linux</span>
+                </div>
+                <div class="stack-item">
+                  <img src="images/skills/java-48.png" alt="Java" />
+                  <span>Java</span>
+                </div>
+              </div>
+
+              <div class="skill-grid">
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Languages</h3>
+                  <div class="chip-group">
+                    <span class="chip">Python</span>
+                    <span class="chip">PySpark</span>
+                    <span class="chip">SQL (Advanced)</span>
+                    <span class="chip">Spark SQL</span>
+                    <span class="chip">Scala</span>
+                    <span class="chip">Shell Scripting</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Big Data &amp; Databricks</h3>
+                  <div class="chip-group">
+                    <span class="chip">Apache Spark 3.x</span>
+                    <span class="chip">Databricks</span>
+                    <span class="chip">Delta Lake</span>
+                    <span class="chip">Delta Live Tables</span>
+                    <span class="chip">Unity Catalog</span>
+                    <span class="chip">Databricks Workflows</span>
+                    <span class="chip">Asset Bundles</span>
+                    <span class="chip">Brickflow</span>
+                    <span class="chip">Medallion Architecture</span>
+                    <span class="chip">Z-Ordering</span>
+                    <span class="chip">Partitioning</span>
+                    <span class="chip">Broadcast Joins</span>
+                    <span class="chip">Query Tuning</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Data Architecture</h3>
+                  <div class="chip-group">
+                    <span class="chip">Dimensional Modeling</span>
+                    <span class="chip">Star &amp; Snowflake Schema</span>
+                    <span class="chip">SCD Type 1/2/3</span>
+                    <span class="chip">Data Warehouse Design</span>
+                    <span class="chip">Enterprise Data Lake</span>
+                    <span class="chip">HLD / LLD</span>
+                    <span class="chip">Source-to-Target Mapping</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Streaming &amp; CDC</h3>
+                  <div class="chip-group">
+                    <span class="chip">Apache Kafka</span>
+                    <span class="chip">Spark Structured Streaming</span>
+                    <span class="chip">Change Data Capture</span>
+                    <span class="chip">Event-Driven Architecture</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Orchestration &amp; Quality</h3>
+                  <div class="chip-group">
+                    <span class="chip">Apache Airflow 2.x</span>
+                    <span class="chip">DAGs &amp; Sensors</span>
+                    <span class="chip">SLA Enforcement</span>
+                    <span class="chip">Databricks Workflows</span>
+                    <span class="chip">Spark-Expectations</span>
+                    <span class="chip">Great Expectations</span>
+                    <span class="chip">Data Lineage</span>
+                    <span class="chip">Data Contracts</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Databases &amp; Warehousing</h3>
+                  <div class="chip-group">
+                    <span class="chip">Snowflake</span>
+                    <span class="chip">Redshift</span>
+                    <span class="chip">PostgreSQL</span>
+                    <span class="chip">Hive</span>
+                    <span class="chip">Impala</span>
+                    <span class="chip">Hadoop / HDFS</span>
+                    <span class="chip">SQOOP</span>
+                    <span class="chip">Apache SOLR</span>
+                    <span class="chip">Parquet</span>
+                    <span class="chip">Avro</span>
+                    <span class="chip">ORC</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>Cloud — AWS</h3>
+                  <div class="chip-group">
+                    <span class="chip">S3</span>
+                    <span class="chip">Glue</span>
+                    <span class="chip">EMR</span>
+                    <span class="chip">Lambda</span>
+                    <span class="chip">Redshift</span>
+                    <span class="chip">Step Functions</span>
+                    <span class="chip">IAM</span>
+                    <span class="chip">EC2</span>
+                    <span class="chip">ECS / ECR</span>
+                    <span class="chip">CloudWatch</span>
+                    <span class="chip">API Gateway</span>
+                    <span class="chip">ALB</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>DevOps &amp; Observability</h3>
+                  <div class="chip-group">
+                    <span class="chip">Git</span>
+                    <span class="chip">GitHub Actions</span>
+                    <span class="chip">Jenkins</span>
+                    <span class="chip">Terraform</span>
+                    <span class="chip">Docker</span>
+                    <span class="chip">Kubernetes</span>
+                    <span class="chip">GitOps</span>
+                    <span class="chip">CI/CD</span>
+                    <span class="chip">Grafana</span>
+                    <span class="chip">Cost Observability</span>
+                    <span class="chip">Cluster Right-Sizing</span>
+                    <span class="chip">DBU Tracking</span>
+                  </div>
+                </div>
+
+                <div class="skill-card ftco-animate">
+                  <h3><span class="dot"></span>AI-Assisted Engineering</h3>
+                  <div class="chip-group">
+                    <span class="chip">Cursor</span>
+                    <span class="chip">Claude Code</span>
+                    <span class="chip">GitHub Copilot</span>
+                    <span class="chip">Genie</span>
+                    <span class="chip">Prompt Engineering</span>
+                    <span class="chip">RAG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="page-3" class="page three">
               <h2 class="heading">Education</h2>
               <div class="resume-wrap d-flex ftco-animate">
                 <div
@@ -187,12 +935,10 @@
                 </div>
                 <div class="text pl-3">
                   <h2>Biju Patnaik University of Technology (BPUT)</h2>
-                  <span class="position">Bachelor's degree</span>
-                  <p>Bhubaneshwar, Odisha - India</p>
-                  <p>
-                    Grade: 80.8 %
-                  </p>
-                  <span class="date">2012-2016</span>
+                  <span class="position">B.Tech — Bachelor's Degree</span>
+                  <p>Bhubaneswar, Odisha — India</p>
+                  <p>Grade: 80.8 %</p>
+                  <span class="date">2012 - 2016</span>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -204,11 +950,9 @@
                 <div class="text pl-3">
                   <h2>Sree Ayyappa Public School (SAPS)</h2>
                   <span class="position">Higher Secondary Education</span>
-                  <p>Bokaro Steel City, Jharkhand - India</p>
-                  <p>
-                    Grade: 82 %
-                  </p>
-                  <span class="date">2010-2012</span>
+                  <p>Bokaro Steel City, Jharkhand — India</p>
+                  <p>Grade: 82 %</p>
+                  <span class="date">2010 - 2012</span>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -220,377 +964,50 @@
                 <div class="text pl-3">
                   <h2>Jawahar Navodaya Vidyalaya (JNV)</h2>
                   <span class="position">Secondary Education</span>
-                  <p>Muzaffarpur, Bihar - India</p>
-                  <p>
-                    Grade: 91.6 %
-                  </p>
-                  <span class="date">2009-2010</span>
+                  <p>Muzaffarpur, Bihar — India</p>
+                  <p>Grade: 91.6 %</p>
+                  <span class="date">2009 - 2010</span>
                 </div>
               </div>
             </div>
 
-            <div id="page-2" class="page two">
-              <h2 class="heading">Experience</h2>
-              <div class="resume-wrap d-flex ftco-animate">
-                <div
-                  class="icon d-flex align-items-center justify-content-center"
-                >
-                  <span class="flaticon-suitcase"></span>
-                </div>
-                <div class="text pl-3">
-                  <h2>Senior Data Engineer - Enterprise Data Analytics & Artificial Intelligence</h2>
-                  <span class="position">Nike</span>
-                  <p class="date">August 2022 - Present</p>
-                  <ul>
-                    <p>
-                      <strong>Nike Direct Clickstream:</strong>
-                    </p>
-                    <li>
-                      Worked on processing and building foundational layer with clickstream data generated by users navigating Nike.com, Nike App & SNKRS App to derive actionable insights into user behavior, enabling business teams to optimize digital experiences, improve marketing strategies, and enhance product development.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Third-Party Partners(3PP):</strong>
-                    </p>
-                    <li>
-                      Onboarded eCommerce platform data from third-party partners (3PP) operating outside the Nike ecosystem onto the Nike Data Foundation.
-                    </li>
-                    <li>
-                      Ensured the availability of complete, trusted, and high-quality data to support global and APLA demand forecasting, enabling data-driven decision-making for teams across Operations.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Databricks Workflow Dependency Sensor:</strong>
-                    </p>
-                    <li>
-                      Developed a custom operator to bridge Airflow DAG dependencies with Databricks Workflows, addressing challenges faced during the migration of pipelines to the new Databricks platform. This solution ensured seamless integration with downstream teams still operating on Airflow/EMR.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Nike.net Product Recommendations:</strong>
-                    </p>
-                    <li>
-                      Built a foundational data layer using Adobe Clickstream data for product offerings and add-to-cart activity from Nike.net partners, enabling AI/ML teams to train models for recommendation engines, driving personalized user experiences & business growth.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Infrastructure Cost & Utilization:</strong>
-                    </p>
-                    <li>
-                      Designed and developed TechSolution ID, a unique identifier for data products, enabling scalable measurement of engineering metrics across tools and processes.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Data Quality:</strong>
-                    </p>
-                    <li>
-                      Contributed to the development of Nike's proprietary Spark-expectations framework, which performs in-flight data quality checks during pipeline execution.
-                    </li>
-                    <li>
-                      Customized the great-expectations library and integrated it with Nike's managed-spark framework to enable dynamic data quality rule ingestion via Excel.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Telemetry:</strong>
-                    </p>
-                    <li>
-                      Implemented telemetry to monitor and analyze data usage and performance metrics, providing insights into access patterns and frequency.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Roles & Responsibilities:</strong>
-                    </p>
-                    <li>
-                      Architect and lead the development of scalable data pipelines and platform features.
-                    </li>
-                    <li>
-                      Translate business needs into technical solutions in collaboration with product teams, business stakeholders, and data science teams.
-                    </li>
-                    <li>
-                      Enforce best practices across teams, including governance, quality, and coding standards.
-                    </li>
-                    <li>
-                      Lead code reviews, pair programming, and mentoring.
-                    </li>
-                    <li>
-                      Troubleshoot complex systems and optimize distributed pipelines.
-                    </li>
-                    <li>
-                      Automate deployments using CI/CD and DevOps practices.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Tech Stacks:</strong>
-                    </p>
-                    <p>
-                      <strong>Python, PySpark, Databricks, Kafka, Airflow, Snowflake, SQL, Data Engineering, Software Engineering, Amazon Web Services (AWS), Data Analysis, Data Warehousing, Data Lake, Delta Lake, Jenkins etc.</strong>
-                    </p>
-                  </ul>
-                </div>
-              </div>
-              <div class="resume-wrap d-flex ftco-animate">
-                <div
-                  class="icon d-flex align-items-center justify-content-center">
-                  <span class="flaticon-suitcase"></span>
-                </div>
-                <div class="text pl-3">
-                  <h2>Senior Data Engineer</h2>
-                  <span class="position">Change Healthcare</span>
-                  <p class="date">Dec 2021 - July 2022</p>
-                  <ul>
-                    <p>
-                      <strong>Resbonsibilties:</strong>
-                    </p>
-                    <li>
-                      Engaged in Healthcare Interoperability, enabling seamless data exchange and accurate interpretation across systems and organizational boundaries. This facilitates the efficient sharing of healthcare information with providers and individuals across various devices, such as computers, tablets, and smartphones. Additionally, it supports third-party application developers in creating medical applications that can be easily integrated into existing systems.
-                    </li>
-                    <li>
-                      Contributed to the design and implementation of use cases, including external clients accessing internal data, internal users accessing external client data, and internal clients accessing internal data. Played a key role in implementing industry-standard methods for accessing integrated records, providing a standardized data access layer for client applications to read, update, and delete records, while eliminating the need for proprietary interfaces.
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Tech Stacks:</strong>
-                    </p>
-                    <p>
-                      <strong>Python, PySpark, Scala, Airflow, SQL, Data Engineering, Amazon Web Services (AWS), Data Analysis, Data Warehousing, AWS - s3, EMR, Lambda, Redshift, Glue, Step function etc.</strong>
-                    </p>
-                  </ul>
-                </div>
-                
-              </div>
-              <div class="resume-wrap d-flex ftco-animate">
-                <div
-                  class="icon d-flex align-items-center justify-content-center">
-                  <span class="flaticon-suitcase"></span>
-                </div>
-                <div class="text pl-3">
-                  <h2>Senior Software Engineer - Data & Analytics Platform</h2>
-                  <span class="position">Cloudwick Technologies</span>
-                  <p class="date">Jan 2020 - Dec 2021</p>
-                  <ul>
-                    <p>
-                      <strong>Project Description:</strong>
-                    </p>
-                      Worked on developing an in-house Next-Generation Data Analytics Platform (NGAP), a strategic initiative for Big Data solutions implemented using EMR and Databricks Spark Compute on the AWS Cloud. NGAP is a user-friendly, security- and privacy-compliant platform designed to support a wide range of use cases, including data storage, ingestion, and curation. It provides dedicated compute resources for diverse workloads and offers advanced features such as self-service capabilities, ad-hoc query tools, job scheduling, and more, enabling seamless and efficient data processing and analytics                    </li>
-                    </p>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Roles & Responsibilities:</strong>
-                    </p>
-                    <li>
-                      Designed and implemented a Flask-based API to enable NGAP users to debug and monitor logs through an UI.                    
-                    </li>
-                    <li>
-                      Developed a Submission Service to manage the submission and state of applications on AWS EMR clusters and EC2 instances.                    
-                    </li>
-                    <li>
-                      Contributed in Spark Best Practices Initiative (Managed-Spark) to help users write optimized and runtime-agnostic Spark code.                    
-                    </li>
-                    <li>
-                      Built an AWS resource cost analysis dashboard to provide insights into cloud resource usage and expenses.                    
-                    </li>
-                    <li>
-                      Automated IAM roles and policy management, reducing access provisioning time from 1 day to just 1 hour.                    
-                    </li>
-                    <li>
-                      Developed various custom Airflow operators to enhance Pipeline automation, manage access, and ensure security compliance.                    
-                    </li>
-                    <li>
-                      Provided technical guidance to cross-functional teams on implementing both streaming and batch data processing services.                    
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Tech Stacks:</strong>
-                    </p>
-                    <p>
-                      <strong>Python, PySpark, Airflow, SQL, Data Engineering, Hadoop, Hive, Software Engineering, Amazon Web Services (AWS), Jenkins, Terraform, Docker, Kubernetes, GitOps, DevOps, Terraform, Jenkins, Linux, Netflix Genie, Data Analysis, Data Warehousing, AWS - s3, EMR, Lambda, Redshift, Glue, Step function, ECR, ECS, Ec2, IAM, ALB, CloudWatch, API GW etc.</strong>
-                    </p>
-                  </ul>
-                </div>
-                
-              </div>
-              <div class="resume-wrap d-flex ftco-animate">
-                <div
-                  class="icon d-flex align-items-center justify-content-center">
-                  <span class="flaticon-suitcase"></span>
-                </div>
-                <div class="text pl-3">
-                  <h2>Software Engineer - BigData</h2>
-                  <span class="position">CenturyLink</span>
-                  <p class="date">Nov 2016 - Dec 2019</p>
-                  <ul>
-                    <p>
-                      <strong>Century Link Data lake:</strong>
-                    </p>
-                    <li>
-                      Century Link data lake is being created to facilitate their Data Science team to work on multiple loyalty management use cases. Data is being pulled from multiple diverse data sources (including their traditional RDBMS, SFTP, S3, and Hive Table) then dump into the staging area that is Redshift. Using Spark, we will implement business logic on staging data and end results provided to the data science team. Handling various types of file formats such as Avro, JSON, Parquet, CSV, etc.                   
-                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>PySpark Template - File processing Ingestion Framework:</strong>
-                    </p>
-                    <li>
-                      Designed and Worked on creating a template to process any fixed-width flat files, wrote a shell, python, and PySpark code which can be used among the team to process and ingest files to HDFS and thus create a hive table on top of that.                    </li>
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Apache SOLR:</strong>
-                    </p>
-                    <li>
-                      Data from Impala was indexed using Apache SOLR and exposed over Java Jersey JAX-RS based API to the end user or consumer facing UI.                  
-                  </ul>
-                  <ul>
-                    <p>
-                      <strong>Roles & Responsibilities:</strong>
-                    </p>
-                    <li>
-                      Contributed to building data pipelines, including data ingestion using SQOOP into HDFS, and transforming and analyzing data using Hive and Impala for reporting purposes.                    
-                    </li> 
-                    <li>
-                      Extracted data from various sources such as RDBMS, remote servers, HDFS, Amazon S3 buckets, and internal SFTP, and loaded it into a data lake and S3 bucket. Developed Spark jobs to process the ingested data efficiently.                    
-                    </li>  
-                    <li>
-                      Performed monitoring and root cause analysis of scheduled jobs using tools like Oozie, Agile Scheduler, and Crontab to ensure smooth operations and timely issue resolution.                    
-                    </li>  
-                    <li>
-                      Collaborated effectively with team members, leveraging strong verbal communication skills to ensure the successful execution of projects.                    
-                    </li>                
-                  </ul>
-                    <ul>
-                    <p>
-                      <strong>Tech Stacks:</strong>
-                    </p>
-                    <p>
-                      <strong>Python, PySpark, SQL, Data Engineering, Data Analysis, Data Warehousing, Haddop, Hive, Impala, Scoop, Shell Scripting, Linux, Cloudera, Oozie, Apache SOLR etc</strong>
-                    </p>
-                  </ul>
-                </div>
-                
-              </div>
-              
-            </div>
-            <div id="page-3" class="page three">
-              <h2 class="heading">Skills</h2>
-              <!-- Skill Section -->
-              <div class="row mb-4 ftco-animate">
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/python-48.png"
-                    title="Python"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/spark-48.png"
-                    title="Spark"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/sql-48.png"
-                    title="SQL"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/kafka-64.png"
-                    title="Kafka"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/aws-48.png"
-                    title="AWS"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/hadoop-48.png"
-                    title="Haddop"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/data-warehouse-64.png"
-                    title="Data Warehouse"
-                  />
-                </div>
-              </div>
-              <div class="row mb-4 ftco-animate">
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/big-data-50.png"
-                    title="BigData"
-                  />
-                </div>
-                <div class="col">
-                  <img 
-                    class="img-fluid grow" 
-                    src="images/skills/docker-48.png" 
-                    title="Docker" 
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/kubernetes-48.png"
-                    title="Kubernetes"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/terraform-48.png"
-                    title="Terraform"
-                  />
-                </div>
-                
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/linux-48.png"
-                    title="Linux"
-                  />
-                </div>
-
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/java-48.png"
-                    title="Java"
-                  />
-                </div>
-                <div class="col">
-                  <img
-                    class="img-fluid grow"
-                    src="images/skills/airflow.svg"
-                    title="Airflow"
-                  />
-                </div>
-              </div>
-            </div>
             <div id="page-4" class="page four">
-              <h2 class="heading">Awards & Recognitions</h2>
+              <h2 class="heading">Certifications</h2>
+              <div class="cert-grid">
+                <div class="cert-card ftco-animate">
+                  <div class="cert-icon">
+                    <span class="flaticon-medal"></span>
+                  </div>
+                  <div>
+                    <h3>
+                      AWS Certified Solutions Architect — Associate (SAA-C03)
+                    </h3>
+                    <p>Amazon Web Services</p>
+                  </div>
+                </div>
+                <div class="cert-card ftco-animate">
+                  <div class="cert-icon">
+                    <span class="flaticon-medal"></span>
+                  </div>
+                  <div>
+                    <h3>AWS Essential Training for Architects</h3>
+                    <p>LinkedIn Learning</p>
+                  </div>
+                </div>
+                <div class="cert-card ftco-animate">
+                  <div class="cert-icon">
+                    <span class="flaticon-medal"></span>
+                  </div>
+                  <div>
+                    <h3>Databricks Certified Data Engineer Professional</h3>
+                    <p><span class="cert-state">In preparation</span> · Udemy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="page-5" class="page five">
+              <h2 class="heading">Awards &amp; Recognitions</h2>
               <div class="resume-wrap d-flex ftco-animate">
                 <div
                   class="icon d-flex align-items-center justify-content-center"
@@ -602,8 +1019,10 @@
                   <span class="position"><strong>Nike</strong></span>
                   <p class="date">June 2023</p>
                   <p>Received a High Five for developing an API to enable Tech Solution IDs for each product during Innovation Week. Designing an easy solution and implementing it in a week time frame for teams to easily adopt this product.</p>
-                  <img src="images/awards/solution_id_api.png" alt="Award" style="width: 450px; height: 250px;">
-                  <img src="images/awards/Tech_Solution_Inventors.png" alt="Award" style="width: 450px; height: 250px;">
+                  <div class="award-gallery">
+                    <img src="images/awards/solution_id_api.png" alt="High Five award for Tech Solution ID API" class="award-img" />
+                    <img src="images/awards/Tech_Solution_Inventors.png" alt="Tech Solution inventors recognition" class="award-img" />
+                  </div>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -617,8 +1036,11 @@
                   <span class="position"><strong>Nike</strong></span>
                   <p class="date">Oct 2023</p>
                   <p>
-                    Received a High Five for Building a re-usable config driven code template that is used of multiple teams while creating data pipelines.                  </p>
-                  <img src="images/awards/reusable_code_template.png" alt="Award" style="width: 450px; height: 250px;">
+                    Received a High Five for Building a re-usable config driven code template that is used of multiple teams while creating data pipelines.
+                  </p>
+                  <div class="award-gallery">
+                    <img src="images/awards/reusable_code_template.png" alt="High Five award for reusable config driven code template" class="award-img" />
+                  </div>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -628,13 +1050,15 @@
                   <span class="flaticon-medal"></span>
                 </div>
                 <div class="text pl-3">
-                  <h2>Stalkholders Communication, Demo & Sign-Off - Clickstream</h2>
+                  <h2>Stalkholders Communication, Demo &amp; Sign-Off - Clickstream</h2>
                   <span class="position"><strong>Nike</strong></span>
                   <p class="date">Nov 2023</p>
                   <p>
-                    Received High Five on getting an Sign-Off on after leveraging the clickstream data generated by users navigating Nike.com, Nike App, SNKRS App, NRC (Nike Running Club), and NTC (Nike Training Club) to provide actionable insights into user behavior, enabling business teams to optimize digital experiences, improve marketing strategies, and enhance product development. 
-                  </p>                 
-                    <img src="images/awards/sign-off.png" alt="Award" style="width: 450px; height: 250px;">
+                    Received High Five on getting an Sign-Off on after leveraging the clickstream data generated by users navigating Nike.com, Nike App, SNKRS App, NRC (Nike Running Club), and NTC (Nike Training Club) to provide actionable insights into user behavior, enabling business teams to optimize digital experiences, improve marketing strategies, and enhance product development.
+                  </p>
+                  <div class="award-gallery">
+                    <img src="images/awards/sign-off.png" alt="High Five award for clickstream sign-off" class="award-img" />
+                  </div>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -649,8 +1073,10 @@
                   <p class="date">Sep 2024</p>
                   <p>
                     Received a High Five for developing a custom operator to bridge Airflow DAG dependencies with Databricks Workflows, addressing challenges faced during the migration of pipelines to the new Databricks platform. This solution ensured seamless integration with downstream teams still operating on Airflow/EMR.
-                  </p>                 
-                    <img src="images/awards/operator.png" alt="Award" style="width: 450px; height: 250px;">
+                  </p>
+                  <div class="award-gallery">
+                    <img src="images/awards/operator.png" alt="High Five award for custom Airflow operators" class="award-img" />
+                  </div>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -660,13 +1086,15 @@
                   <span class="flaticon-medal"></span>
                 </div>
                 <div class="text pl-3">
-                  <h2>Migration & Enhancement - Third Party Partners Data</h2>
+                  <h2>Migration &amp; Enhancement - Third Party Partners Data</h2>
                   <span class="position"><strong>Nike</strong></span>
                   <p class="date">Oct 2024</p>
                   <p>
                     Onboarded eCommerce platform data from third-party partners (3PP) operating outside the Nike ecosystem onto the Nike Data Foundation. Ensured the availability of complete, trusted, and high-quality data to support global and APLA demand forecasting, enabling data-driven decision-making for teams across Operations.
-                  </p>                 
-                  <img src="images/awards/3pp.png" alt="Award" style="width: 450px; height: 250px;">
+                  </p>
+                  <div class="award-gallery">
+                    <img src="images/awards/3pp.png" alt="High Five award for third party partners data migration" class="award-img" />
+                  </div>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate">
@@ -681,8 +1109,10 @@
                   <p class="date">Dec 2024</p>
                   <p>
                     Received a High Five for the quick turnaround in onboarding the new 3PP Musinsa Partner.
-                  </p>                 
-                  <img src="images/awards/no_issue.png" alt="Award" style="width: 450px; height: 250px;">
+                  </p>
+                  <div class="award-gallery">
+                    <img src="images/awards/no_issue.png" alt="High Five award for onboarding new 3PP partner" class="award-img" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -694,8 +1124,9 @@
     <section class="ftco-section" id="project-section">
       <div class="container-fluid px-md-5">
         <div class="row justify-content-center py-5 mt-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Projects</h2>
+          <div class="col-md-8 heading-section text-center ftco-animate">
+            <span class="section-eyebrow">Side of the desk</span>
+            <h2 class="mb-4 heading-underline">Projects &amp; Open Source</h2>
           </div>
         </div>
         <div class="row">
@@ -703,17 +1134,25 @@
             <a
               href="https://github.com/iamabhishek1995/spark-expectations"
               target="_blank"
+              rel="noopener"
               class="services-1 shadow"
             >
               <span class="icon">
                 <i class="icon-book"></i>
               </span>
               <div class="desc">
-                <h3 class="mb-4">Open Source Contribution - Spark-expectations</h3>
-                <p><strong>Python • Pyspark</strong></p>
+                <h3 class="mb-4">Spark-Expectations</h3>
+                <p><strong>Open Source Contribution</strong></p>
                 <p>
-                  A Python Library to support running data quality rules while the spark job is running.
+                  A Python library that runs data quality rules in-flight while
+                  the Spark job is executing, keeping bad records out of
+                  downstream tables.
                 </p>
+                <div class="project-tags">
+                  <span class="chip">Python</span>
+                  <span class="chip">PySpark</span>
+                  <span class="chip">Data Quality</span>
+                </div>
               </div>
             </a>
           </div>
@@ -721,32 +1160,44 @@
             <a
               href="https://github.com/iamabhishek1995/brickflow"
               target="_blank"
+              rel="noopener"
               class="services-1 shadow"
             >
               <span class="icon">
                 <i class="icon-book"></i>
               </span>
               <div class="desc">
-                <h3 class="mb-4">Open Source Contribution - Brickflow</h3>
-                <p><strong>Python • Pyspark</strong></p>
+                <h3 class="mb-4">Brickflow</h3>
+                <p><strong>Open Source Contribution</strong></p>
                 <p>
-                  Pythonic Programming Framework to orchestrate jobs in Databricks Workflow.
+                  A Pythonic programming framework to define and orchestrate
+                  jobs in Databricks Workflows as code.
                 </p>
+                <div class="project-tags">
+                  <span class="chip">Python</span>
+                  <span class="chip">Databricks</span>
+                  <span class="chip">Orchestration</span>
+                </div>
               </div>
             </a>
           </div>
-          <div class="col-md-4 text-center d-flex ftco-animate">
+          <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
             <a class="services-1 shadow">
               <span class="icon">
                 <i class="icon-book"></i>
               </span>
               <div class="desc">
-                <h3 class="mb-4">Whats Chat Parser</h3>
-                <p><strong>Python • NLP • Regex</strong></p>
+                <h3 class="mb-4">WhatsApp Chat Parser</h3>
+                <p><strong>Personal Project</strong></p>
                 <p>
-                  An App that takes WhatsApp chat file and parses it for better
-                  data analysis.
+                  An app that takes a WhatsApp chat export and parses it into a
+                  structured dataset ready for analysis.
                 </p>
+                <div class="project-tags">
+                  <span class="chip">Python</span>
+                  <span class="chip">NLP</span>
+                  <span class="chip">Regex</span>
+                </div>
               </div>
             </a>
           </div>
@@ -760,51 +1211,59 @@
     >
       <div class="container">
         <div class="row justify-content-center mb-4 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Contact Me</h2>
+          <div class="col-md-8 heading-section text-center ftco-animate">
+            <span class="section-eyebrow">Say hello</span>
+            <h2 class="mb-4 heading-underline">Contact Me</h2>
+            <p>
+              Open to conversations around data platform architecture, lakehouse
+              migrations and engineering leadership.
+            </p>
           </div>
         </div>
 
         <div class="row d-flex justify-content-center contact-info mb-5">
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
             <div class="align-self-stretch box text-center p-4 shadow">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
+              <div class="icon d-flex align-items-center justify-content-center">
                 <span class="icon-phone2"></span>
               </div>
               <div>
                 <h3 class="mb-4">Contact Number</h3>
-                <p><a>+91-7205475736</a></p>
+                <p><a href="tel:+917205475736">+91-7205475736</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 d-flex ftco-animate">
             <div class="align-self-stretch box text-center p-4 shadow">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
+              <div class="icon d-flex align-items-center justify-content-center">
                 <span class="icon-paper-plane"></span>
               </div>
               <div>
                 <h3 class="mb-4">Email Address</h3>
                 <p>
-                  <a href="">iamabhishek1995@gmail.com</a>
-                  <a href="">abhishek_@outlook.in</a>
+                  <a href="mailto:abhishek_@outlook.in">abhishek_@outlook.in</a>
+                  <a href="mailto:iamabhishek1995@gmail.com"
+                    >iamabhishek1995@gmail.com</a
+                  >
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
             <div class="align-self-stretch box text-center p-4 shadow">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-globe"></span>
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-linkedin-square"></span>
               </div>
               <div>
-                <h3 class="mb-4">Website</h3>
-                <p><a>SOON_TO_BE_LIVE.me</a></p>
+                <h3 class="mb-4">LinkedIn</h3>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/iamabhishek1995/"
+                    target="_blank"
+                    rel="noopener"
+                    >/in/iamabhishek1995</a
+                  >
+                </p>
               </div>
             </div>
           </div>
@@ -812,11 +1271,7 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form
-              method="POST"
-              action="https://example.com/submit-form"
-              class="bg-light p-4 p-md-5 contact-form"
-            >
+            <form class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
                 <input
                   type="text"
@@ -837,7 +1292,6 @@
               </div>
               <div class="form-group">
                 <textarea
-                  id=""
                   cols="30"
                   rows="7"
                   class="form-control"
@@ -853,7 +1307,6 @@
                   value="Send Message"
                   class="btn btn-primary py-3 px-5"
                 />
-                <input type="hidden" name="_next" value="//SOON_TO_BE_LIVE.me" />
               </div>
             </form>
           </div>
@@ -861,37 +1314,11 @@
           <div class="col-md-6 d-flex">
             <div
               class="img"
-              style="background-image: url(images/mine/mine.jpeg)"
+              style="background-image: url(images/mine/about.jpeg)"
             ></div>
           </div>
         </div>
-      <script>
-        document.querySelector('.contact-form').addEventListener('submit', function (event) {
-          event.preventDefault();
-
-          const formData = new FormData(event.target);
-          const name = formData.get('name');
-          const email = formData.get('email');
-          const message = formData.get('message');
-
-          const mailtoLink = `mailto:iamabhishek1995@gmail.com?subject=Message from Portfolio - ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-          window.location.href = mailtoLink;
-        });
-      </script>
       </div>
-    <script>
-      document.querySelector('.contact-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-
-        const formData = new FormData(event.target);
-        const name = formData.get('name');
-        const email = formData.get('email');
-        const message = formData.get('message');
-
-        const mailtoLink = `mailto:iamabhishek1995@gmail.com?subject=Message from Portfolio - ${name}&body=Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-        window.location.href = mailtoLink;
-      });
-    </script>
     </section>
 
     <footer class="ftco-footer ftco-section">
@@ -900,13 +1327,20 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">About</h2>
-              <p>I like working with new tools and technologies</p>
+              <p>
+                Senior Data Engineer building lakehouse platforms, dependable
+                pipelines and the teams behind them.
+              </p>
               <p class="mt-4"><u>Social Links</u></p>
               <ul
                 class="ftco-footer-social list-unstyled float-md-left float-lft"
               >
                 <li class="ftco-animate">
-                  <a href="https://github.com/iamabhishek1995" target="_blank"
+                  <a
+                    href="https://github.com/iamabhishek1995"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="GitHub"
                     ><span class="icon-github"></span
                   ></a>
                 </li>
@@ -914,14 +1348,15 @@
                   <a
                     href="https://www.linkedin.com/in/iamabhishek1995/"
                     target="_blank"
+                    rel="noopener"
+                    aria-label="LinkedIn"
                     ><span class="icon-linkedin-square"></span
                   ></a>
                 </li>
                 <li class="ftco-animate">
-                  <a><span class="icon-stack-overflow"></span></a>
-                </li>
-                <li class="ftco-animate">
-                  <a><span class="icon-instagram"></span></a>
+                  <a href="mailto:iamabhishek1995@gmail.com" aria-label="Email"
+                    ><span class="icon-envelope"></span
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -942,7 +1377,7 @@
                 </li>
                 <li>
                   <a href="#resume-section"
-                    ><span class="icon-long-arrow-right mr-2"></span>Resume</a
+                    ><span class="icon-long-arrow-right mr-2"></span>Résumé</a
                   >
                 </li>
                 <li>
@@ -965,15 +1400,21 @@
               <div class="block-23 mb-3">
                 <ul>
                   <li>
-                    <a
+                    <a href="tel:+917205475736"
                       ><span class="icon icon-phone"></span
                       ><span class="text">+91-7205475736</span></a
                     >
                   </li>
                   <li>
-                    <a href=""
+                    <a href="mailto:iamabhishek1995@gmail.com"
                       ><span class="icon icon-envelope"></span
                       ><span class="text">iamabhishek1995@gmail.com</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      ><span class="icon icon-map-marker"></span
+                      ><span class="text">Bengaluru, India</span></a
                     >
                   </li>
                 </ul>
@@ -983,10 +1424,10 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-            <i class="icon-heart color-danger" aria-hidden="true"></i>
-            <i class="icon-heart color-danger" aria-hidden="true"></i>
-            <p class="mt-5">
-              Copyright &copy;
+            <p class="footer-note mt-4 mb-0">
+              Designed &amp; built with
+              <i class="icon-heart" aria-hidden="true"></i> by Kumar Abhishek ·
+              &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
@@ -1034,5 +1475,28 @@
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      // Contact form hands off to the visitor's mail client.
+      document
+        .querySelector(".contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const formData = new FormData(event.target);
+          const name = formData.get("name");
+          const email = formData.get("email");
+          const message = formData.get("message");
+
+          const mailtoLink =
+            "mailto:abhishek_@outlook.in" +
+            "?subject=" +
+            encodeURIComponent("Portfolio enquiry from " + name) +
+            "&body=" +
+            encodeURIComponent(
+              "Name: " + name + "\nEmail: " + email + "\n\n" + message
+            );
+          window.location.href = mailtoLink;
+        });
+    </script>
   </body>
 </html>
